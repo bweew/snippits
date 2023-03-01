@@ -1,26 +1,14 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/goyo.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
-Plug 'https://github.com/rebelot/kanagawa.nvim'
-Plug 'https://github.com/sainnhe/everforest'
-Plug 'https://github.com/patstockwell/vim-monokai-tasty'
 Plug 'https://github.com/sainnhe/sonokai'
-Plug 'http://github.com/scrooloose/nerdtree'
-Plug 'https://github.com/francoiscabrol/ranger.vim'
-Plug 'vifm/vifm.vim'
 Plug 'vimwiki/vimwiki'
 Plug 'tpope/vim-fugitive'
-
-
 Plug 'plasticboy/vim-markdown'
 Plug 'sfztools/sfz.vim'
-Plug 'morhetz/gruvbox'
+
 call plug#end()
-
-
 
 set background=dark
 colorscheme sonokai
@@ -48,7 +36,5 @@ set smarttab
 set expandtab
 set nocompatible
 filetype plugin on
-
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+set autowriteall
 
